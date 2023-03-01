@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Price Plans</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="shopping py-5">
+        <div class="container">
+            <div class="topHeader py-3 px-2 d-flex justify-content-center align-items-center mb-4">
+                <h3>
+                    Your discount has been applied!
+                    <span>
+                        Get 70% off for 3 months on lite, plus and premium plans.
+                        This offer expires on April 27,2023.
+                    </span>
+                </h3>
+            </div>
+            <div class="row">
+                <div class="col-lg-11 m-auto">
+                    <form id="msform">
+                        <!-- progressbar -->
+                        <ul id="progressbar" class="d-flex justify-content-center align-items-center">
+                            <li class="active mr-3">
+                                <p>
+                                    <i class="fas fa-home-alt"></i>
+                                    <span>Choose Plan</span>
+                                </p>
+                                <i class="fas fa-chevron-right"></i>
+                            </li>
+                            <li class="mr-3">
+                                <p>
+                                    <i class="fas fa-user-friends"></i>
+                                    <span>Teams & Add-Ons</span>
+                                </p>
+                                <i class="fas fa-chevron-right"></i>
+                            </li>
+                            <li>
+                                <p>
+                                    <i class="fas fa-credit-card"></i>
+                                    <span>Review & Pay</span>
+                                </p>
+                            </li>
+                        </ul>
+                        <!-- fieldsets -->
+                        <fieldset class="border-bottom">
+                            <h1 class="text-center text-primary mb-3">Your Free Trial Has Ended - It's Time to Upgrade
+                            </h1>
+                            <p class="text-center mb-0">
+                                Select a plan below to jump back into FreshBooks today.
+                            </p>
+                            <p class="text-center">
+                                Need a hand? Reach out to our award-winning support team <a href="#"
+                                    class="text-primary text-decoration-none">here</a>
+                            </p>
+                            <div
+                                class="btn-container py-3 my-3 d-flex justify-content-center align-items-center position-relative">
+                                <p class="text-primary save-text">save 10%</p>
+                                <div class="arrow">
+                                    <div class="arrow__body"></div>
+                                </div>
+                                <label class="switch btn-color-mode-switch">
+                                    <input type="checkbox" name="color_mode" id="color_mode" value="1">
+                                    <label for="color_mode" data-on="Dark" data-off="Light"
+                                        class="btn-color-mode-switch-inner" role="button"></label>
+                                </label>
+                            </div>
+                            <div class="card-container py-2 mb-3 border-bottom">
+                                <div class="row mx-0 d-flex justify-content-center align-items-center flex-wrap gap-25">
+                                    <div class="card price-card overflow-hidden">
+                                        <div class="top-shape"></div>
+                                        <div class="card-head text-center mb-3">
+                                            <h3 class="bg-warning py-1 fa-1x">
+                                                70% Off For 3 Months
+                                            </h3>
+                                            <p class="text-primary font-weight-bold fa-2x">
+                                                Lite
+                                                <span class="text-muted">
+                                                    $45
+                                                </span>
+                                            </p>
+                                            <p class="price text-primary">
+                                                <span>$</span>
+                                                4
+                                                <span>.50</span>
+                                                <span class="text-muted">
+                                                    /m
+                                                </span>
+                                            </p>
+                                            <p class="font-weight-bold discount-30">
+                                                Save $31.50 in 3 months
+                                            </p>
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="text-center">
+                                                5 Clients
+                                            </p>
+                                            <p class="text-center text-muted and-lines">
+                                                And
+                                            </p>
+                                            <ul class="list-unstyled plan-option">
+                                                <li class="d-flex justify-content-start align-items-baseline">
+                                                    <i class="fas fa-check text-success mr-2"></i>
+                                                    Unlimited Invoices and Estimates
+                                                </li>
+                                                <li class="d-flex justify-content-start align-items-baseline">
+                                                    <i class="fas fa-check text-success mr-2"></i>
+                                                    Track Time and Expenses
+                                                </li>
+                                                <li class="d-flex justify-content-start align-items-baseline">
+                                                    <i class="fas fa-check text-success mr-2"></i>
+                                                    Access to award-winning Support
+                                                </li>
+                                            </ul>
+                                            <p class="text-center mt-2 mb-4">
+                                                +more
+                                            </p>
+                                            <div
+                                                class="warning d-flex justify-content-center align-items-baseline bg-warning mb-2 p-2 rounded">
+                                                <i class="fas fa-warning mr-2"></i>
+                                                <p class="mb-0">
+                                                    Heads up!
+                                                    <span>
+                                                        you've outgrown this plan
+                                                    </span>
+                                                </p>
+                                            </div>
+                                            <p class="text-center mt-3 mb-0 fs-13">
+                                                Learn how to access this plan <a href="#">here</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="card-plus position-relative">
+                                        <h4 class="top-card-head rounded-pill text-primary">
+                                            most Populer
+                                        </h4>
+                                        <div class="card card-active">
+                                            <div class="top-shape"></div>
+                                            <div class="card-head text-center mb-3">
+                                                <h3 class="bg-warning py-1 fa-1x">
+                                                    70% Off For 3 Months
+                                                </h3>
+                                                <p class="text-primary font-weight-bold fa-2x">
+                                                    Plus
+                                                    <span class="text-muted l-Thourgh">
+                                                        $30
+                                                    </span>
+                                                </p>
+                                                <p class="price text-primary">
+                                                    <span>$</span>
+                                                    9
+                                                    <span></span>
+                                                    <span class="text-muted">
+                                                        /m
+                                                    </span>
+                                                </p>
+                                                <p class="font-weight-bold discount-30">
+                                                    Save $63 in 3 months
+                                                </p>
+                                            </div>
+                                            <div class="shape-card">
+                                                <div class="card-body text-white">
+                                                    <p class="text-center">
+                                                        50 Clients
+                                                    </p>
+                                                    <p class="text-center and-lines">
+                                                        And
+                                                    </p>
+                                                    <ul class="list-unstyled plan-option">
+                                                        <li class="d-flex justify-content-start align-items-baseline">
+                                                            <i class="fas fa-check mr-2"></i>
+                                                            All Lite Features
+                                                        </li>
+                                                        <li class="d-flex justify-content-start align-items-baseline">
+                                                            <i class="fas fa-check mr-2"></i>
+                                                            Automatic Payment Reminders
+                                                        </li>
+                                                        <li class="d-flex justify-content-start align-items-baseline">
+                                                            <i class="fas fa-check mr-2"></i>
+                                                            Change Late Fees
+                                                        </li>
+                                                        <li class="d-flex justify-content-start align-items-baseline">
+                                                            <i class="fas fa-check mr-2"></i>
+                                                            Schedule Recurring Invoices
+                                                        </li>
+                                                        <li class="d-flex justify-content-start align-items-baseline">
+                                                            <i class="fas fa-check mr-2"></i>
+                                                            Creatre Clinte Retainers
+                                                        </li>
+                                                        <li class="d-flex justify-content-start align-items-baseline">
+                                                            <i class="fas fa-check mr-2"></i>
+                                                            Collaborate with Your Accounteant
+                                                        </li>
+                                                        <li class="d-flex justify-content-start align-items-baseline">
+                                                            <i class="fas fa-check mr-2"></i>
+                                                            Double-Entry Accounting Reports & Tools
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="plan-btn text-center">
+                                                    <input type="button" name="next"
+                                                        class="next btn btn-success rounded"
+                                                        value="Choose Plane" />
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="card price-card overflow-hidden">
+                                        <div class="top-shape"></div>
+                                        <div class="card-head text-center mb-3">
+                                            <h3 class="bg-warning py-1 fa-1x">
+                                                70% Off For 3 Months
+                                            </h3>
+                                            <p class="text-primary font-weight-bold fa-2x">
+                                                premium
+                                                <span class="text-muted">
+                                                    $55
+                                                </span>
+                                            </p>
+                                            <p class="price text-primary">
+                                                <span>$</span>
+                                                16
+                                                <span>.50</span>
+                                                <span class="text-muted">
+                                                    /m
+                                                </span>
+                                            </p>
+                                            <p class="font-weight-bold discount-30">
+                                                Save $115.50 in 3 months
+                                            </p>
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="text-center">
+                                                Unlimited Clients
+                                            </p>
+                                            <p class="text-center text-muted and-lines">
+                                                And
+                                            </p>
+                                            <ul class="list-unstyled plan-option">
+                                                <li class="d-flex justify-content-start align-items-baseline">
+                                                    <i class="fas fa-check text-success mr-2"></i>
+                                                    All Plus Features
+                                                </li>
+                                                <li class="d-flex justify-content-start align-items-baseline">
+                                                    <i class="fas fa-check text-success mr-2"></i>
+                                                    Track Project Profitability
+                                                </li>
+                                                <li class="d-flex justify-content-start align-items-baseline">
+                                                    <i class="fas fa-check text-success mr-2"></i>
+                                                    Custome Email Templates
+                                                </li>
+                                                <li class="d-flex justify-content-start align-items-baseline">
+                                                    <i class="fas fa-check text-success mr-2"></i>
+                                                    Custome Email Signutre
+                                                </li>
+                                                <li class="d-flex justify-content-start align-items-baseline">
+                                                    <i class="fas fa-check text-success mr-2"></i>
+                                                    Dynamic Fields for Automated Communication
+                                                </li>
+                                            </ul>
+                                            <div class="text-center mt-3 mb-0 fs-13">
+                                                <input type="button" name="next" class="next btn border rounded"
+                                                    value="Choose Plane" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card d-flex flex-column justify-content-between">
+                                        <div class="card-head mb-3">
+                                            <p class="text-primary text-center font-weight-bold">
+                                                Select
+                                            </p>
+                                            <p class="text-center">
+                                                Unlimited Clients and Customer Features
+                                            </p>
+                                            <p class="font-weight-bold discount-30 text-center">
+                                                Save $115.50 in 3 months
+                                            </p>
+                                            <p class="text-center text-muted fs-13">
+                                                You may quality for FreshBooks select, which includes:
+                                            </p>
+                                            <ul class="list-unstyled plan-option">
+                                                <li class="d-flex justify-content-start align-items-baseline">
+                                                    <i class="fas fa-check text-success mr-2"></i>
+                                                    Lower Credit Card Processing Feeds
+                                                </li>
+                                                <li class="d-flex justify-content-start align-items-baseline">
+                                                    <i class="fas fa-check text-success mr-2"></i>
+                                                    Dedicated Account Manger
+                                                </li>
+                                                <li class="d-flex justify-content-start align-items-baseline">
+                                                    <i class="fas fa-check text-success mr-2"></i>
+                                                    Customized Training for You and Your Team
+                                                </li>
+                                                <li class="d-flex justify-content-start align-items-baseline">
+                                                    <i class="fas fa-check text-success mr-2"></i>
+                                                    Remove FreshBooks Branding from Client Emails
+                                                </li>
+                                                <li class="d-flex justify-content-start align-items-baseline">
+                                                    <i class="fas fa-check text-success mr-2"></i>
+                                                    All Premium Features and Add-Ons
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="body p-0">
+                                            <p class="text-center">
+                                                Give us a call at:
+                                            </p>
+                                            <p class="text-center text-primary">
+                                                1-833-333-1128
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="note text-right mt-3">
+                                    <span>All prices in USD.</span>
+                                </div>
+                            </div>
+                        </fieldset>
+                        <fieldset>
+                            <h2 class="fs-title text-center">Add Team Members To Your Plan</h2>
+                            <h3 class="fs-subtitle text-center">
+                                once you've addedyour teams members, you can assign roles and send invites in FreshBooks
+                            </h3>
+                            <div class="py-2 border-bottom mb-3">
+                                <div class="row mx-0">
+                                    <div class="col-lg-7">
+                                        <ul class="list-unstyled px-3 py-2 border-bottom">
+                                            <li
+                                                class="d-flex flex-row align-items-baseline justify-content-start border-bottom my-2 py-1">
+                                                <i class="fas fa-user-friends fa-2xs mr-2 text-muted"></i>
+                                                <p>
+                                                    Team Members - $10/ <span>mo</span> <br>
+                                                    Add team members so they can track time, expenses and help you mange
+                                                    your project and billing
+                                                </p>
+                                            </li>
+                                            <li
+                                                class="d-flex flex-row align-items-baseline justify-content-between border-bottom my-2 py-1 text-muted pl-3">
+                                                <p>
+                                                    Add / Remove Team Member/s
+                                                </p>
+                                                <div class="qty-container">
+                                                    <button class="qty-btn-minus btn" type="button"><i
+                                                            class="fa fa-minus text-muted"></i></button>
+                                                    <input type="text" name="qty" value="0" class="input-qty" />
+                                                    <button class="qty-btn-plus btn" type="button"><i
+                                                            class="fa fa-plus text-muted"></i></button>
+                                                </div>
+                                            </li>
+                                            <li
+                                                class="d-flex flex-row align-items-baseline justify-content-start my-2 py-1">
+                                                <span class="user-icon">
+                                                    <i class="fas fa-user"></i>
+                                                </span>
+                                                <p>
+                                                <p class="teamVal mx-2">0</p>
+                                                Available Team Members
+                                                </p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="offset-lg-1 col-lg-4">
+                                        <div class="payment-card">
+                                            <div class="card p-3 mb-3">
+                                                <p>
+                                                    Plan
+                                                </p>
+                                                <div
+                                                    class="d-flex justify-content-between align-items-baseline text-muted">
+                                                    <p>
+                                                        Plus Plan
+                                                    </p>
+                                                    <p>
+                                                        $30/
+                                                        <span>mo</span>
+                                                    </p>
+                                                </div>
+                                                <div class="d-flex justify-content-between align-items-baseline text-muted"
+                                                    style="border-bottom: 1px dashed #dee2e6;">
+                                                    <p>
+                                                        70% Discount
+                                                        <span class="d-block">
+                                                            (3 months)
+                                                        </span>
+                                                    </p>
+                                                    <p>
+                                                        -$21/
+                                                        <span>mo</span>
+                                                    </p>
+                                                </div>
+                                                <div class="d-flex justify-content-between align-items-baseline my-2">
+                                                    <p></p>
+                                                    <p class="font-weight-bold">
+                                                        Plan Total
+                                                    </p>
+                                                    <p class="font-weight-bold">
+                                                        $9/
+                                                        <span>mo</span>
+                                                    </p>
+                                                </div>
+                                                <p class="text-muted mt-3">
+                                                    Add-ons
+                                                </p>
+                                                <div class="d-flex justify-content-between align-items-baseline mb-2"
+                                                    style="border-bottom: 1px dashed #dee2e6;">
+                                                    <p>
+                                                        Team Members x5
+                                                    </p>
+                                                    <p>
+                                                        $50/
+                                                        <span>mo</span>
+                                                    </p>
+                                                </div>
+                                                <div
+                                                    class="d-flex justify-content-between align-items-baseline my-2 border-bottom">
+                                                    <p></p>
+                                                    <p class="font-weight-bold">
+                                                        Add-Ons Total
+                                                    </p>
+                                                    <p class="font-weight-bold">
+                                                        $50/
+                                                        <span>mo</span>
+                                                    </p>
+                                                </div>
+                                                <div class="d-flex justify-content-between align-items-baseline my-2">
+                                                    <p class="font-weight-bold">
+                                                        Total
+                                                    </p>
+                                                    <p class="text-primary font-weight-bold">
+                                                        $59.00/
+                                                        <span>mo</span>
+                                                        <span class="d-block text-muted text-right">
+                                                            Plus taxes
+                                                        </span>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <input type="button" name="previous" class="previous btn float-left font-weight-bold"
+                                value="Back" />
+                            <input type="button" name="next"
+                                class="next btn btn-success text-white float-right font-weight-bold"
+                                value="Review & Pay" id="form-submit" />
+                            <div class="clr"></div>
+                        </fieldset>
+                        <fieldset>
+                            <h2 class="fs-title text-center">Review Your Plan and Upgrade</h2>
+                            <h3 class="fs-subtitle text-center">
+                                Don't worry, your card won't be changed until after your 30-day free trial ends tomorrow
+                            </h3>
+                            <div class="creditCardData py-2 border-bottom mb-3">
+                                <div class="row mx-0">
+                                    <div class="col-lg-6">
+                                        <div class="card-data">
+                                            <div class="card px-3 mb-3">
+                                                <div
+                                                    class="crard-logo d-flex justify-content-between align-items-baseline py-2">
+                                                    <div class="logo">
+                                                        <img src="images/cardChip.png" alt="card chip">
+                                                    </div>
+                                                    <div class="title">
+                                                        <h4 class="h6">
+                                                            Credit Card
+                                                            <i class="far fa-credit-card"></i>
+                                                        </h4>
+                                                    </div>
+                                                </div>
+                                                <div class="card-info">
+                                                    <div class="card-number my-2">
+                                                        <div class="row mx-0 g-2">
+                                                            <div class="col-lg-8">
+                                                                <div class="form-group">
+                                                                    <label for="cardNumber">
+                                                                        Card Number
+                                                                    </label>
+                                                                    <input type="text" placeholder="1234 1234 1234 1234"
+                                                                        name="cardNumber" id="cardNumber"
+                                                                        class="form-control">
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-4">
+                                                                <div class="form-group">
+                                                                    <label for="code">
+                                                                        Security Code
+                                                                    </label>
+                                                                    <input type="password" name="code" id="code"
+                                                                        placeholder="***" class="form-control">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="user-info">
+                                                        <div class="row mx-0 g-2">
+                                                            <div class="col-lg-8">
+                                                                <div class="row">
+                                                                    <div class="col-lg-6">
+                                                                        <div class="form-group">
+                                                                            <label for="fname">
+                                                                                First Name
+                                                                            </label>
+                                                                            <input type="text" name="fname" id="fname"
+                                                                                class="form-control">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-6">
+                                                                        <div class="form-group">
+                                                                            <label for="lname">
+                                                                                Last Name
+                                                                            </label>
+                                                                            <input type="text" name="lname" id="lname"
+                                                                                class="form-control">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-4">
+                                                                <div class="form-group">
+                                                                    <label for="code">
+                                                                        Expiration Date
+                                                                    </label>
+                                                                    <input type="date" name="code" id="code"
+                                                                        placeholder="MM / YYYY" class="form-control">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="address border-top py-3">
+                                                <span>
+                                                    Billing Address
+                                                </span>
+                                                <input type="text" class="form-control text-muted my-2"
+                                                    placeholder="Street Address">
+                                                <div class="d-flex justify-content-between align-items-baseline">
+                                                    <input type="text" class="form-control text-muted"
+                                                        placeholder="City">
+                                                    <input type="text" class="form-control text-muted"
+                                                        placeholder="State">
+                                                </div>
+                                                <div class="d-flex justify-content-between align-items-baseline my-2">
+                                                    <input type="text" class="form-control text-muted"
+                                                        placeholder="Zip Code">
+                                                    <select name="keg_type" placeholder="Pickup Date"
+                                                        class="form-control" role="button">
+                                                        <option value="Saudi Arabia" selected>
+                                                            Saudi Arabia
+                                                        </option>
+                                                        <option value="Egypt">Egypt</option>
+                                                        <option value="UAE">UAE</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="acount-action text-right">
+                                                <a href="#" class="d-block text-muted my-3">
+                                                    log out of this account
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="offset-lg-2 col-lg-4">
+                                        <div class="payment-card">
+                                            <div class="card p-3 mb-3">
+                                                <p>
+                                                    Plan
+                                                </p>
+                                                <div
+                                                    class="d-flex justify-content-between align-items-baseline text-muted">
+                                                    <p>
+                                                        Plus Plan
+                                                    </p>
+                                                    <p>
+                                                        $30/
+                                                        <span>mo</span>
+                                                    </p>
+                                                </div>
+                                                <div class="d-flex justify-content-between align-items-baseline text-muted"
+                                                    style="border-bottom: 1px dashed #dee2e6;">
+                                                    <p>
+                                                        70% Discount
+                                                        <span class="d-block">
+                                                            (3 months)
+                                                        </span>
+                                                    </p>
+                                                    <p>
+                                                        -$21/
+                                                        <span>mo</span>
+                                                    </p>
+                                                </div>
+                                                <div class="d-flex justify-content-between align-items-baseline my-2">
+                                                    <p></p>
+                                                    <p class="font-weight-bold">
+                                                        Plan Total
+                                                    </p>
+                                                    <p class="font-weight-bold">
+                                                        $9/
+                                                        <span>mo</span>
+                                                    </p>
+                                                </div>
+                                                <p class="text-muted mt-3">
+                                                    Add-ons
+                                                </p>
+                                                <div class="d-flex justify-content-between align-items-baseline mb-2"
+                                                    style="border-bottom: 1px dashed #dee2e6;">
+                                                    <p>
+                                                        Team Members x5
+                                                    </p>
+                                                    <p>
+                                                        $50/
+                                                        <span>mo</span>
+                                                    </p>
+                                                </div>
+                                                <div
+                                                    class="d-flex justify-content-between align-items-baseline my-2 border-bottom">
+                                                    <p></p>
+                                                    <p class="font-weight-bold">
+                                                        Add-Ons Total
+                                                    </p>
+                                                    <p class="font-weight-bold">
+                                                        $50/
+                                                        <span>mo</span>
+                                                    </p>
+                                                </div>
+                                                <div class="d-flex justify-content-between align-items-baseline my-2">
+                                                    <p class="font-weight-bold">
+                                                        Total
+                                                    </p>
+                                                    <p class="text-primary font-weight-bold">
+                                                        $59.00/
+                                                        <span>mo</span>
+                                                        <span class="d-block text-muted text-right">
+                                                            Plus taxes
+                                                        </span>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <input type="button" name="previous" class="previous btn float-left font-weight-bold"
+                                value="Back" />
+                            <div class="nextBtn float-right d-inline-flex justify-content-center align-items-baseline">
+                                <span>
+                                    <i class="fas fa-lock"></i>
+                                    payments are safe and secure
+                                </span>
+                                <input type="submit" name="submit" class="submit btn btn-success text-white ml-1"
+                                    value="Upgrade" id="form-submit" />
+                            </div>
+                            <div class="clr"></div>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="js/jquery-3.6.3.min.js"></script>
+    <script src="http://thecodeplayer.com/uploads/js/jquery.easing.min.js" type="text/javascript"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
